@@ -4,4 +4,4 @@ cont = 0
 while cont < n:
     if
     cont = cont+1
-    print(n)
+print(n)
