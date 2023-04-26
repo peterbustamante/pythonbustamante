@@ -13,12 +13,15 @@ for i in range(11):
         print(i)
 # como indica la variable for comiensa con el numero 1, terminara hasta el numero 10 .
 for j in range(1, 11):
+    # imprimira los numeros
     print(j)
 # como indica la variable for comiensa con el numero 1, terminara hasta el numero 10, su tercer numero definira cuanto en cuanto hara la cuenta
 # en este caso lo contara en dos en dos .
 for k in range(0, 11, 2):
+    # imprimira los numeros de dos en dos
     print(k)
 # como indica la variable for comiensa con el numero 20, terminara hasta el numero 1, su tercer numero es negativo para idicar que contara del mayor al menor
 # en este caso contar 2 en 2 desde 20 hasta 0
 for i in range(20, 0, -2):
+    # imprimira los numeros de dos en dos de 20 hasta 0
     print(i)
