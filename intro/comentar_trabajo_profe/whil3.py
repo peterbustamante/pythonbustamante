@@ -11,10 +11,10 @@ menor = 1000000  # se crea variable menor para almacenar el numero menor.
 mayor = 0  # crea variable mayor, para almacenar el numero mayor .
 while num != 0:
     num = int(input('ingrese numero'))
-     cont = cont+1
-      sum = sum+num
-       if num > mayor:
-            mayor = num
+    cont = cont+1
+    sum = sum+num
+    if num > mayor:
+        mayor = num
         if num < menor and num != 0:
             menor = num
 
