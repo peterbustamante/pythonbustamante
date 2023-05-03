@@ -1,8 +1,0 @@
-n = int(input("introduce un numero positivo :"))
-max=0
-while n >=-1:
- if n> max:
-  max=n
- n = int(input("introduce un numero positivo :"))
-print(f'el numero {max} es el mayor positivo')
- 
