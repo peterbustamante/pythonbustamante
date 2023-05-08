@@ -18,7 +18,6 @@ for i in range(tam):
     if n < menor:
         menor = n
  
-        
 promedio=suma/tam
 print(lista)
 
