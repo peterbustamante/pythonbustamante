@@ -28,6 +28,8 @@ for q in range(tam):
             if calificaciones[i] >=3:
                 prom2+=1
 
+
+
 print(calificaciones)
 
 var=["reprobado" if x < 3 else "aprovado" for x in calificaciones]
@@ -44,5 +46,7 @@ print(grupo4)
 grupo5 =[x for x in calificaciones if 5>=x and x>=4 ]
 print(grupo5)
 print(prom)
+
+
 
 
