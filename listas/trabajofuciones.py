@@ -40,12 +40,12 @@ def asender(lista):
     return listam
 
 def desender(lista):
-    listam=lista
+    listap=lista
     for i in range(n):
         for o in range(i+1,n):
-            if listam[i] < listam[o]:
-                listam[i],listam[o] = listam[o],listam[i]
-        return listam
+            if listap[i] < listap[o]:
+                listap[i],listap[o] = listap[o],listap[i]
+    return listap
 
 
 
@@ -55,9 +55,10 @@ def desender(lista):
 
 l=llenarlista(N,n)
 print(l)
-print(suma(l))
-print(promedio(l))
-print(mayor(l))
-print(menor(l))
+print('suma dee las lista :',suma(l))
+print('promedio de lista :',promedio(l))
+print('mayor de lista :',mayor(l))
+print('menor de lista :',menor(l))
 print(asender(l))
 print(desender(l))
+
