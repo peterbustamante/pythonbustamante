@@ -47,8 +47,13 @@ def desender(lista):
                 listap[i],listap[o] = listap[o],listap[i]
     return listap
 
-
-
+# def moda(lista):
+#     mod=0
+#     listad=lista
+#     for i in range(n):
+#             for o in range(i+1,n):
+#                 if listad[i] == listad[o]:
+#     return listad
 
 
 
@@ -61,4 +66,5 @@ print('mayor de lista :',mayor(l))
 print('menor de lista :',menor(l))
 print(asender(l))
 print(desender(l))
+#print(moda(l))
 

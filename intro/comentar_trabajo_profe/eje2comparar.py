@@ -26,7 +26,7 @@ t1 =tam1
 
 if n < menor:
         menor = n
-        
+
 for i in range(tam2):
     num=random.randrange(100)
     lista2.append(num)
