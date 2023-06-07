@@ -17,4 +17,5 @@ class empleado:
         hr = self.salario//22
         hr = hr//8
 
-    def  ipc(self):
+    # def  ipc(self):
+
