@@ -17,7 +17,7 @@ class empleado:
         hr =self.salario//30
         hr//=8
         return hr
-    def ipc 
+    def ipc
 
     def horasex(self):
         salarioex= self.horas()
