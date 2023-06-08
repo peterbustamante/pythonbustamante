@@ -19,7 +19,7 @@ print(p.getdocumento())
 print(g.getnombre())
 print(g.getdocumento())
 
-print(p.getdatos())
-print(p.getcurso())
+# print(p.getdatos())
+# print(p.getcurso())
 
 

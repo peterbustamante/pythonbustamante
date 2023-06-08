@@ -82,17 +82,17 @@ else:
 
 for i in range(tam1):
     if lista1[i]%2 == 0 :
-     par1+=1
+        par1+=1
     else:
         imp1+=1
 for i in range(tam2):
     if lista2[i]%2 == 0 :
-     par2+=1
+        par2+=1
     else:
-        imp2+=1        
-     
+        imp2+=1
+
 print(par1,imp1)
-print(par2,imp2)   
+print(par2,imp2)
 
 if par1>par2:
     print("flia 1 tiene mayor cantidad de pares :",par1)
