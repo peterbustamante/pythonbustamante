@@ -1,0 +1,14 @@
+# x= int(input("ingresar numero  :"))
+# y= int(input("ingresar numero  :"))
+# while true  
+#     x= int(input("ingresar numero  :"))
+
+# print(x)
+
+try:
+    x= int(input("ingresar numero  :"))
+    y= int(input("ingresar numero  :"))
+    x/y
+    print(x/y)
+except ZeroDivisionError:
+    print("nooo")
