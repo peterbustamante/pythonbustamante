@@ -1,6 +1,7 @@
 # x= int(input("ingresar numero  :"))
 # y= int(input("ingresar numero  :"))
-# while true  
+# while True:
+#     x=
 #     x= int(input("ingresar numero  :"))
 
 # print(x)

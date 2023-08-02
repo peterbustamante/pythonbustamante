@@ -19,7 +19,7 @@ try:
     a= int(input("ingresar numero del valor a: "))
     b= int(input("ingresar numero del valor b: "))
     c= int(input("ingresar numero del valor c: "))
-except ValueError:
+except:
     print("toca ingresar numeros")
 try:
     cuadratica1= (b**2)-(4*a*c)
@@ -29,10 +29,10 @@ try:
 
     suma=((cuadratica2 + raiz)/cuadratica3)
     resta=((cuadratica2 - raiz)/cuadratica3)
-    print(f'la suma es {suma},la resta es {resta}')
+    print(f'la suma es {suma}\nla resta es {resta}')
 
 except ValueError:
-    print("el numero es negativo")
+    print(f"el numero {cuadratica1} para la realizar la raiz es negativo")
 
 except ZeroDivisionError:
     print("la division es entre cero")
